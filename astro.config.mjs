@@ -22,11 +22,11 @@ export default defineConfig({
         { label: "Simmons Tech Transition", link: "/transition/" },
         {
           label: "How to do stuff",
-          autogenerate: { directory: "guides" },
+          items: [{autogenerate: { directory: "guides" }],
         },
         {
           label: "How does Simmons Tech work?",
-          autogenerate: { directory: "reference" },
+          items: [{autogenerate: { directory: "reference" }],
         },
       ],
       customCss: ["./src/styles/custom.css"],
